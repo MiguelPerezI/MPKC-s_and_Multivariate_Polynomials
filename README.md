@@ -111,7 +111,7 @@ java polinomio
 #### Basic Mathematical Testing
 ```bash
 cd polinomialFields_c/
-gcc -o test_math Main.c vector.c Matrix.c polinomios.c -lm
+gcc -o test_math Main.c vector.c Matrix.c polinomios.c Arista.c -lm -lGL -lGLU -lglut
 ./test_math
 ```
 
@@ -131,7 +131,7 @@ gcc Arista.c fractalCurves.c Hilbert.c MainOpenGL.c Matrix.c polinomios.c Tree.c
 cd polinomialFields_c/
 
 # Test polynomial operations only
-gcc Main.c polinomios.c Matrix.c vector.c -lm -o test_polynomials
+gcc Main.c polinomios.c Matrix.c vector.c Arista.c -lm -lGL -lGLU -lglut -o test_polynomials
 ./test_polynomials
 ```
 

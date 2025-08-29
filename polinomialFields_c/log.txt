@@ -1,0 +1,17 @@
+$ gcc -o test_math Main.c vector.c Matrix.c polinomios.c -lm
+/usr/bin/ld: /tmp/cc8pDxBD.o: in function `initAnilloZp':
+polinomios.c:(.text+0x376): undefined reference to `creaEspacioMatrixVecindadCubica'
+/usr/bin/ld: polinomios.c:(.text+0x43b): undefined reference to `initVecindadCubica'
+/usr/bin/ld: polinomios.c:(.text+0x472): undefined reference to `creaEspacioMatrixVecindadCubica'
+/usr/bin/ld: polinomios.c:(.text+0x53d): undefined reference to `initVecindadCubica'
+/usr/bin/ld: /tmp/cc8pDxBD.o: in function `additionInZp':
+polinomios.c:(.text+0xa46): undefined reference to `updateVecindadCubica'
+/usr/bin/ld: polinomios.c:(.text+0xe3f): undefined reference to `updateVecindadCubica'
+/usr/bin/ld: /tmp/cc8pDxBD.o: in function `multiplicationInZp':
+polinomios.c:(.text+0x126d): undefined reference to `updateVecindadCubica'
+/usr/bin/ld: /tmp/cc8pDxBD.o: in function `subtractionInZp':
+polinomios.c:(.text+0x16a1): undefined reference to `updateVecindadCubica'
+/usr/bin/ld: /tmp/cc8pDxBD.o: in function `renderAnilloZp':
+polinomios.c:(.text+0x17a5): undefined reference to `renderVecindadCubica'
+collect2: error: ld returned 1 exit status
+
