@@ -126,6 +126,8 @@ gcc Arista.c fractalCurves.c Hilbert.c MainOpenGL.c Matrix.c polinomios.c Tree.c
 ./polynomial_visualizer
 ```
 
+> **📖 Interactive Controls**: For detailed information about keyboard controls and how to interact with the OpenGL visualization, see [`polinomialFields_c/README.md`](polinomialFields_c/README.md).
+
 #### Individual Component Testing
 ```bash
 cd polinomialFields_c/
